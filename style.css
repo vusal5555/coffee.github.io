@@ -1,0 +1,96 @@
+:root{
+  --main-color:#d3ad7f;
+  --black:#13131a;
+  --bg:#010103;
+  --border:.1rem solid rgba(255,255,255,.3);
+}
+
+body {
+  background-color: var(--bg);
+  height: 500vh;
+
+}
+.navbar {
+  background-color: var(--black);
+  color: #fff;
+}
+
+.row-about {
+  background-color: var(--black);
+}
+
+.jumbotron {
+  background-image: url(images/home-img.jpeg);
+  height: 110vh;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+
+
+.col-lg-7 {
+  padding-top: 15rem;
+}
+
+
+.inst {
+  color: #d3ad7f;
+}
+
+
+.card {
+  line-height: 3rem;
+  border: var(--border);
+  
+}
+
+
+.card-review {
+  line-height: 2rem;
+  padding: 1rem;
+}
+
+.coffee {
+  margin: 0;
+  padding: 0;
+}
+
+.fa-star {
+  color: #d3ad7f;
+}
+
+
+html::-webkit-scrollbar{
+  width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #fff;
+  border-radius: 5rem;
+}
+
+.form-control {
+  height: 70px;
+  border-radius: none;
+  border: var(--border);
+}
+
+
+
+
+
+@media (max-width:667px) {
+  .card-review {
+    line-height: 1.5rem;
+    
+  }
+}
+
+
+
+
